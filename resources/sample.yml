@@ -1,0 +1,40 @@
+hive:
+  cg_database: "test_schema"
+
+test1:
+  - name: name1
+    enabled: true
+    id: 1
+  - name: name2
+    enabled: false
+    id: 2
+  - name: name3
+    enabled: true
+    id: 3
+  - name: name4
+    enabled: true
+    id: 4
+  - name: name5
+    enabled: true
+    id: 5
+
+test2:
+  - row: ["string1", true, 11]
+  - row: ["string2", true, 22]
+  - row: ["string3", false, 33]
+  - row: ["string4", true, 44]
+  - row: ["string5", true, 55]
+
+test3:
+  - {name: NAME1, flag: true, key: -1}
+  - {name: NAME2, flag: true, key: -2}
+  - {name: NAME3, flag: true, key: -3}
+  - {name: NAME4, flag: false, key: -4}
+  - {name: NAME5, flag: true, key: -5}
+
+test4:
+  - ["lalala1", true, 11]
+  - ["lalala2", true, 22]
+  - ["lalala3", false, 33]
+  - ["lalala4", true, 44]
+  - ["lalala5", true, 55]
